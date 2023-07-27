@@ -75,10 +75,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
-  color: white;
-  font-weight: 500;
-  font-size: 0.9rem;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.container-2 .logo img {
+  width: 450px;
 }
 
 .menu {
@@ -116,6 +118,8 @@ body {
   top: 120%;
 
   /* Reset styles */
+  width: auto;
+  white-space: nowrap;
   font-size: 0.9rem;
   list-style-type: none;
   margin: 0;
